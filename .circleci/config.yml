@@ -1,0 +1,13 @@
+version: 2.1
+jobs:
+  tox:
+    docker:
+      - image: python:3.8-alpine3.10
+    steps:
+      - checkout
+      - run: pip install tox && tox
+
+workflows:
+  version: 2
+  python:
+    - tox

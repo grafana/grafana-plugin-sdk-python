@@ -1,0 +1,6 @@
+autopep8==1.5.2
+protobuf==3.11.3
+pycodestyle==2.6.0
+pytest
+tox==3.15.0
+pytest-cov
