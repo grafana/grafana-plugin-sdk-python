@@ -7,6 +7,8 @@ jobs:
     steps:
       - checkout
       - run: pip install tox && tox
+      - store_artifacts:
+          path: htmlcov
 
 workflows:
   python:
