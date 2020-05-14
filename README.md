@@ -1,4 +1,4 @@
-[![<ORG_NAME>](https://circleci.com/github/grafana/grafana-plugin-sdk-python.svg?style=shield)](https://circleci.com/github/grafana/grafana-plugin-sdk-python)
+[![grafana](https://circleci.com/github/grafana/grafana-plugin-sdk-python.svg?style=shield)](https://circleci.com/github/grafana/grafana-plugin-sdk-python)
 
 # Grafana Plugin SDK Python
 
