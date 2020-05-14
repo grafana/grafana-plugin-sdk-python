@@ -1,4 +1,5 @@
 [![Circle CI](https://img.shields.io/circleci/build/gh/grafana/grafana-plugin-sdk-python)](https://circleci.com/gh/grafana/grafana-plugin-sdk-python)
+[![codecov](https://codecov.io/gh/grafana/grafana-plugin-sdk-python/branch/master/graph/badge.svg)](https://codecov.io/gh/grafana/grafana-plugin-sdk-python)
 
 # Grafana Plugin SDK Python
 
