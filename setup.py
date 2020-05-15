@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     package_data={},
     include_package_data=True,
-    version='0.0.1',
+    version='0.0.2',
     install_requires=[
         'bump2version',
         'pandas >= 1.0.3',
