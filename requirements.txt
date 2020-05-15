@@ -3,4 +3,3 @@ pyarrow==0.17.0
 grpcio==1.28.1
 protobuf==3.11.3
 grpcio-tools==1.28.1
-grafana-plugin-sdk==0.0.1
