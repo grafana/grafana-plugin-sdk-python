@@ -17,6 +17,7 @@ setup(
     include_package_data=True,
     version='0.0.1',
     install_requires=[
+        'bump2version',
         'pandas >= 1.0.3',
         'pyarrow >= 0.17.0'
     ],
