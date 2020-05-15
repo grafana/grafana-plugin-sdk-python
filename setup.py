@@ -8,7 +8,7 @@ path = os.path.dirname(os.path.realpath(__file__))
 entry_points = {}
 
 setup(
-    name='grafana-plugin-sdk-python',
+    name='grafana-plugin-sdk',
     description='Grafana plugin SDK',
     author='Justin Hunthrop',
     author_email='justin.hunthrop@grafana.com',
