@@ -4,7 +4,7 @@ import logging
 import grpc
 from concurrent import futures
 
-import sdk.proto.backend_pb2 as backend
+# import sdk.proto.backend_pb2 as backend
 import sdk.proto.backend_pb2_grpc as backend_grpc
 
 
@@ -31,7 +31,7 @@ class Server(object):
 
     def __init__(self, handler):
 
-        if not issubclass(handler.__class__, BasePlugin):
+        if not issubclass(handler, BasePlugin):
             raise
 
         self.server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))

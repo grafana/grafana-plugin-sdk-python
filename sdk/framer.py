@@ -2,7 +2,6 @@ import io
 
 import pandas as pd
 import pyarrow as pa
-from pyarrow import json
 
 
 class Framer(object):
