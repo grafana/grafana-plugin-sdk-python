@@ -1,10 +1,6 @@
 import os
 from setuptools import setup, find_packages
 
-
-path = os.path.dirname(os.path.realpath(__file__))
-
-
 entry_points = {}
 
 setup(
