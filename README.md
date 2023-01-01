@@ -12,3 +12,4 @@ You can find the officialy supported SDK [here]](https://pkg.go.dev/github.com/g
 ## Usage
 
 `python -m grpc_tools.protoc -I <path_to_grafana_plugin_sdk_go>/proto --python_out=. --grpc_python_out=. backend.proto`
+test
