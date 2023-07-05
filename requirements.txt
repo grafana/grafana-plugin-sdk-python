@@ -1,5 +1,5 @@
 pandas==1.0.3
 pyarrow==0.17.0
-grpcio==1.28.1
+grpcio==1.53.0
 protobuf==3.11.3
 grpcio-tools==1.28.1
